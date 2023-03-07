@@ -1,0 +1,51 @@
+// import React, { useRef } from "react";
+// import emailjs from "@emailjs/browser";
+import { FaLandmark } from "react-icons/fa";
+import { TbPhoneCall } from "react-icons/tb";
+import { TbMail } from "react-icons/tb";
+
+const Brief = () => {
+
+  return (
+    <>
+      <div className="max-w-full">
+        <div className="w-full h-[35rem] flex justify-between bg-gradient-to-r from-[#015c64] to-[#042549] items-center py-12 px-12 text-white ">
+          <div className="w-[25rem] border-4 h-full p-6  hover:bg-[#1e4b55a9] ease-linear transform transition duration-500 rounded-lg flex justify-center items-center flex-col">
+            <h1 className="font-climate font-semibold text-[2rem] text-center leading-loose tracking-wider">About Our Church</h1>
+            <p className="font-serif text-left indent-5 text-xl leading-relaxed">Harvest Center Parish Vietnam is a Parish of the The Redeemed Christian Church of God ( RCCG ) VIETNAM. We have been in Vietnam since 2013 , ministering to the spiritual needs of those who are heavy burden and desirous of a relationship with our Lord and Savior Jesus Christ.</p>
+          </div>
+          <div className="w-[25rem] border-4 h-full p-6 hover:bg-[#1b3850c8] ease-linear transform  transition duration-500 rounded-lg flex justify-center items-center flex-col">
+            <h1 className="font-climate font-semibold text-[2rem] text-center leading-loose tracking-wider">Our Service Times</h1>
+            <p className="border-b-2 border-t-2 leading-relaxed flex flex-col font-serif text-xl py-2">
+              <span> Worship Services On Sundays</span>
+              <span>8:00AM - 9:30AM</span>
+            </p>
+            <p className="border-b-2 leading-relaxed flex flex-col font-serif text-xl py-2">
+              <span>Mid-week Services on Tuesdays</span>
+              <span>Digging Deep (Bible Study): <br /> 7:00PM -8:00PM</span>
+            </p>
+          </div>
+          <div className="w-[25rem] border-4 h-full p-6 hover:bg-[#1b3850c8] ease-linear transform transition duration-500 rounded-lg flex justify-center content-center pt-16 flex-col">
+            <h1 className="font-climate font-semibold text-[2rem] text-center tracking-wider">Worship Center</h1>
+            <div className="w-full h-72 flex flex-col justify-center items-center gap-2">
+              <div className="w-full px-8 pb-4 flex flex-col justify-between gap-2 items-center">
+                <FaLandmark className="w-6 h-6" />
+                <p className="font-serif text-xl text-left flex-grow">Q7, HCMC Vietnam</p>
+              </div>
+              <div className="w-full px-8 pb-4 flex flex-col justify-between items-center">
+                <TbPhoneCall className="w-6 h-6" />
+                <p className="font-serif text-xl text-left flex-grow">+84 077 375 5307</p>
+              </div>
+              <div className="w-full px-8 pb-4 flex flex-col justify-between items-center">
+                <TbMail className="w-6 h-6" />
+                <p className="font-serif text-xl text-left flex-grow">rccg.vietnam@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Brief;
