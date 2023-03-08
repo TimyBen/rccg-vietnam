@@ -74,7 +74,7 @@ function Home() {
                 <div className="absolute  sm:h-[35vh] lg:h-[55rem] flex justify-center items-center  top-0 w-full ">
 
                   <div className="h-full font-serif font-medium w-full lg:py-32 lg:px-32 bg-[#1d30411a] text-[#ffffff] flex justify-center items-center ">
-                    <h1 className="w-[60rem] animate-fade sm:h-[35rem] lg:h-[25rem] text-[3rem] max-[420px]:text-base text-center rounded-lg uppercase leading-loose antialiased bg-[#01040622] tracking-wide description flex justify-center items-center">
+                    <h1 className="w-[60rem] animate-fade sm:h-[35rem] lg:h-[55rem] text-[3rem] max-[420px]:text-base text-center rounded-lg uppercase leading-loose antialiased bg-[#01040622] tracking-wide description flex justify-center items-center">
                       Live by Faith <br /> be known for Love <br /> & be a voice of Hope.
                     </h1>
                     {/* <div className="w-full h-full blur-[10px] bg-black absolute"></div> */}
@@ -89,7 +89,7 @@ function Home() {
                 />
                 <div className="absolute sm:h-[35vh] lg:h-[55rem] flex justify-center items-center top-0 w-full">
                   <div className="h-full  font-serif font-medium w-full lg:py-32 lg:px-32 bg-[#24354512] text-[#f4faff] flex justify-center items-center ">
-                    <h1 className="w-[60rem] animate-fade sm:h-[35rem] lg:h-[25rem] text-[3rem] max-[420px]:text-base text-center rounded-lg uppercase leading-loose antialiased bg-[#01040622] tracking-wide description flex justify-center items-center">
+                    <h1 className="w-[60rem] animate-fade sm:h-[35rem] lg:h-[55rem] text-[3rem] max-[420px]:text-base text-center rounded-lg uppercase leading-loose antialiased bg-[#01040622] tracking-wide description flex justify-center items-center">
                       Harvest Center Parish <br /> Football team
                     </h1>
                   </div>
