@@ -28,7 +28,7 @@ function Home() {
               </div>
             </Link>
             <nav className="lg:px-32 h-fit max-[420px]:w-full navbar navbar-expand-lg navbar-light">
-              <ul className="max-[420px]:text-base w-full text-white justify-between content-center leading-normal font-serif font-medium text-xl max-lg:pr-4  max-lg:py-12 flex navbar-nav mr-auto">
+              <ul className="max-[420px]:text-base w-full text-white justify-between content-center leading-normal font-serif font-medium text-xl lg:pr-4  lg:py-12 max-[420px]:p-2 flex navbar-nav mr-auto">
                 <li className="p-3">
                   <button className="ease-linear transform hover:scale-125 transition duration-300">
                     <Link to={"/"} className="nav-link">
