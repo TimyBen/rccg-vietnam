@@ -83,7 +83,7 @@ function Home() {
               </div>
               <div className="each-fade sm:h-[34vh] lg:h-[45rem]">
                 <img
-                  className="w-full h-[35vh] lg:h-[50rem] sm:h-[25vh] max-[420px]:h-[25vh] object-fill aspect-auto bg-center bg-contain bg-no-repeat brightness-5 blur-[0.5px]"
+                  className="w-full lg:h-[50rem] sm:h-[35vh] max-[420px]:h-[25vh] object-fill aspect-auto bg-center bg-contain bg-no-repeat brightness-5 blur-[0.5px]"
                   src={Img_2}
                   alt=""
                 />
