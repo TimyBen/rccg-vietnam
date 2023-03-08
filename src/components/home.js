@@ -81,9 +81,9 @@ function Home() {
                   </div>
                 </div>
               </div>
-              <div className="each-fade">
+              <div className="each-fade h-full">
                 <img
-                  className="w-full h-[34.5vh] object-fill aspect-auto bg-center bg-contain bg-no-repeat brightness-5 blur-[0.5px]"
+                  className="w-full h-full object-fill aspect-auto bg-center bg-contain bg-no-repeat brightness-5 blur-[0.5px]"
                   src={Img_2}
                   alt=""
                 />
