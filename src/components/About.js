@@ -56,9 +56,9 @@ function About() {
           </nav>
         </header>
       </div>
-      <div className="h-fit w-full">
-        <div className="w-full lg:h-[24rem] max-sm:h-[15.7vh] max-lg:h-[23.5vh] absolute z-10 ">
-          <div className="w-full lg:h-[24rem] flex justify-center items-center">
+      <div className="h-2/4 w-full">
+        <div className="w-full lg:h-[30rem] max-sm:h-[15.7vh] max-lg:h-[23.5vh] absolute z-10 ">
+          <div className="w-full flex justify-center items-center">
             <div className="flex justify-center content-center lg:h-[5rem] max-sm:h-12 max-lg:h-16 w-[60%] bg-[#154163] bg-opacity-90 rounded-tl-3xl rounded-br-3xl absolute bottom-0">
               <h1 className="justify-center flex self-center text-4xl max-sm:text-2xl font-serif text-white tracking-wide font-Bold">
                 About Us
@@ -68,7 +68,7 @@ function About() {
         </div>
         <div className="w-full h-fit">
           <img
-            className="w-full lg:h-[24rem] blur-sm bg-center bg-contain bg-no-repeat"
+            className="w-full lg:h-[30rem] blur-sm bg-center bg-contain bg-no-repeat"
             src={WorshipBg}
             alt=""
           />
@@ -135,12 +135,12 @@ function About() {
             />
           </div>
         </div>
-        <div className="w-full h-fit rounded-t-3xl bg-gray-700 lg:px-24 lg:p-16">
+        <div className="w-full h-fit rounded-t-3xl bg-transparent border-4 lg:px-24 lg:p-16">
           <div className=" h-fit w-full flex flex-col justify-center items-center px-4 border-opacity-5">
             <h1 className="font-serif font-bold text-3xl self-center pt-4 leading-loose text-white">
               Our Beliefs
             </h1>
-            <p className="font-serif text-2xl max-[420px]:text-base self-center leading-loose text-white lg:px-24 pb-8 text-left indent-5">
+            <p className="font-serif text-2xl max-[420px]:text-base self-center leading-loose text-white max-md:px-24 pb-8 text-left indent-5">
               As a Parish of the Redeemed Christian Church of God we stand by
               the original vision and mission statement of RCCG. We believe
               that Jesus Christ is Lord and that salvation and access to the
