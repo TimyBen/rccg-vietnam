@@ -71,9 +71,9 @@ function LifeSkill() {
           />
         </div>
         <div className="h-[60vh] w-full flex justify-center items-center">
-          <div className="h-full w-full bg-[#0b4047] flex justify-center items-center">
-            <div className="flex justify-center items-center rounded-[3rem] animate-bounce border-[8px] border-green-500 p-16">
-              <h1 className="text-[7rem] font-bold animate-pulse tracking-wider leading-loose text-white font-climate ">Coming Soon...</h1>
+          <div className="h-full w-full bg-[#0b4047] flex lg:pt-52 justify-center items-center">
+            <div className="flex justify-center items-center rounded-[3rem] animate-bounce border-[4px] lg:border-[8px] md:border-[8px] border-green-500 p-16">
+              <h1 className="lg:text-[5rem] text-[2rem] font-bold animate-pulse tracking-wider leading-loose text-white font-climate ">Coming Soon...</h1>
             </div>
           </div>
         </div>
