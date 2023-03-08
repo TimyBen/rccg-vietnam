@@ -64,7 +64,7 @@ function Home() {
 
         <div className="w-full">
           <div className="slide-container">
-            <Fade className="w-full">
+            <Fade className="w-full h-32">
               <div className="each-fade">
                 <img
                   className="w-full h-fit aspect-auto object-contain bg-center bg-contain bg-no-repeat blur-[2px]"
@@ -83,7 +83,7 @@ function Home() {
               </div>
               <div className="each-fade">
                 <img
-                  className="w-full h-fit object-fill aspect-auto bg-center bg-contain bg-no-repeat brightness-5"
+                  className="w-full h-[35vh] object-fill aspect-auto bg-center bg-contain bg-no-repeat brightness-5"
                   src={Img_2}
                   alt=""
                 />
