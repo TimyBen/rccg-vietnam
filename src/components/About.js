@@ -56,23 +56,21 @@ function About() {
           </nav>
         </header>
       </div>
-      <div className="lg:h-full w-full">
-        <div className="w-full lg:h-[30rem] max-sm:h-[15.7vh] max-lg:h-[23.5vh] absolute z-10 ">
-          <div className="w-full h-full flex justify-center items-center">
+      <div className="sm:h-full w-full">
+        <div className="w-full lg:h-[30rem] h-[25vh] max-[420px]:h-[25vh] absolute z-10 ">
+          <div className="w-full flex sm:h-[25vh]  justify-center items-center">
             <div className="flex justify-center content-center lg:h-[5rem] max-sm:h-12 max-lg:h-16 w-[60%] bg-[#154163] bg-opacity-90 rounded-tl-3xl rounded-br-3xl absolute bottom-0">
-              <h1 className="justify-center flex self-center text-4xl max-sm:text-2xl font-serif text-white tracking-wide font-Bold">
+              <h1 className="justify-center flex self-center text-4xl max-sm:text-xl font-serif text-white tracking-wide font-Bold">
                 About Us
               </h1>
             </div>
           </div>
         </div>
-        <div className="w-full h-full">
-          <img
-            className="w-full lg:h-[30rem] blur-sm bg-center bg-contain bg-no-repeat"
-            src={WorshipBg}
-            alt=""
-          />
-        </div>
+        <img
+          className="w-full h-[25vh] lg:h-[30rem] sm:h-[25vh] max-[420px]:h-[25vh] blur-sm bg-center bg-contain bg-no-repeat"
+          src={WorshipBg}
+          alt=""
+        />
       </div>
       <div className="w-full h-full">
         <div className="w-full h-fit rounded-b-xl bg-white bg-opacity-90 lg:px-24 lg:p-16">
