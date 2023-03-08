@@ -10,7 +10,7 @@ import LifeSkill from "./components/LifeSkill";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App max-w-full">
       <div className="">
         <Router>
           <div>

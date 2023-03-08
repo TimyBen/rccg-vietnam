@@ -24,10 +24,10 @@ const ContactUs = () => {
   return (
     <>
 
-      <section class=" p-16 flex justify-center bg-[#0e485267] bg-opacity-30 items-center">
-        <div className="w-[60%] h-full rounded-2xl  bg-gradient-to-r from-[#0a53a07a] to-[#23a5a595]">
-          <div class=" lg:py-16 px-4 mx-auto max-w-screen-md">
-            <h2 class="mb-4 text-[2rem] uppercase py-6 font-climate leading-relaxed tracking-widest drop-shadow-3xl font-extrabold text-center text-gray-900 dark:text-white">
+      <section class="p-6 w-full flex justify-center bg-[#0e485267] bg-opacity-30 items-center">
+        <div className="h-full rounded-2xl w-full lg:w-[70%] bg-gradient-to-r from-[#0a53a07a] to-[#23a5a595]">
+          <div class="py-16 px-4 mx-auto max-w-screen-md">
+            <h2 class="mb-4 text-[2rem] uppercase py-6 font-climate leading-relaxed tracking-widest drop-shadow-3xl font-extrabold text-center text-gray-900 dark:text-white max-[420px]:text-base">
               Inquire
             </h2>
             <form ref={form} onSubmit={sendEmail} className="space-y-8">
