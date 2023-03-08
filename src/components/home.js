@@ -64,10 +64,10 @@ function Home() {
 
         <div className="w-full h-2/4">
           <div className="slide-container w-full">
-            <Fade className="w-full">
+            <Fade className="w-full h-full">
               <div className="each-fade">
                 <img
-                  className="w-full h-fit aspect-auto object-contain bg-center bg-contain bg-no-repeat blur-[2px]"
+                  className="w-full h-[30vh] lg:h-[50rem] sm:h-[15vh] max-[420px]:h-[25vh] aspect-auto object-fill bg-center bg-contain bg-no-repeat blur-[2px]"
                   src={Img_1}
                   alt=""
                 />
@@ -83,7 +83,7 @@ function Home() {
               </div>
               <div className="each-fade h-full">
                 <img
-                  className="w-full h-full object-fill aspect-auto bg-center bg-contain bg-no-repeat brightness-5 blur-[0.5px]"
+                  className="w-full h-[30vh] lg:h-[50rem] sm:h-[25vh] max-[420px]:h-[25vh] object-fill aspect-auto bg-center bg-contain bg-no-repeat brightness-5 blur-[0.5px]"
                   src={Img_2}
                   alt=""
                 />
