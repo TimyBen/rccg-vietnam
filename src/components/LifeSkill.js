@@ -56,7 +56,7 @@ function LifeSkill() {
         </div>
         <div className="h-fit w-full">
           <div className="w-full lg:h-[30rem] max-sm:h-[27vh] max-lg:h-[40.5vh] absolute z-10 ">
-            <div className="w-full lg:h-[30rem] flex justify-center items-center">
+            <div className="w-full flex justify-center items-center">
               <div className="flex justify-center content-center lg:h-[5rem] max-sm:h-12 max-lg:h-16 w-[60%] bg-[#154163] bg-opacity-90 rounded-tl-3xl rounded-br-3xl absolute bottom-0">
                 <h1 className="justify-center flex self-center text-4xl max-sm:text-2xl font-serif text-white tracking-wide font-Bold">
                   Life Skill Training
