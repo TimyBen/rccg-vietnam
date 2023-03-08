@@ -56,9 +56,9 @@ function About() {
           </nav>
         </header>
       </div>
-      <div className="lg:h-2/4 w-full">
+      <div className="lg:h-full w-full">
         <div className="w-full lg:h-[30rem] max-sm:h-[15.7vh] max-lg:h-[23.5vh] absolute z-10 ">
-          <div className="w-full flex justify-center items-center">
+          <div className="w-full h-full flex justify-center items-center">
             <div className="flex justify-center content-center lg:h-[5rem] max-sm:h-12 max-lg:h-16 w-[60%] bg-[#154163] bg-opacity-90 rounded-tl-3xl rounded-br-3xl absolute bottom-0">
               <h1 className="justify-center flex self-center text-4xl max-sm:text-2xl font-serif text-white tracking-wide font-Bold">
                 About Us
@@ -66,7 +66,7 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="w-full h-fit">
+        <div className="w-full h-full">
           <img
             className="w-full lg:h-[30rem] blur-sm bg-center bg-contain bg-no-repeat"
             src={WorshipBg}
@@ -80,7 +80,7 @@ function About() {
             <h1 className="font-serif font-bold text-3xl self-center pt-4 leading-loose text-black">
               Who Are We ?
             </h1>
-            <p className="font-serif text-2xl self-center leading-loose text-black max-[420px]:text-base lg:px-24 pb-8 ">
+            <p className="font-serif text-2xl self-center leading-loose text-black max-[420px]:text-base lg:px-12 pb-8 ">
               Harvest Center Parish Vietnam is a Parish of the The Redeemed
               Christian Church of God ( RCCG ) VIETNAM. We have been in Vietnam
               since 2013 , ministering to the spiritual needs of those who are
@@ -89,15 +89,15 @@ function About() {
             </p>
           </div>
         </div>
-        <div className="w-full min-h-full flex max-[420px]:flex-col justify-between content-center gap-2 px-6 ">
+        <div className="w-full min-h-full flex max-[420px]:flex-col justify-between content-center gap-2 ">
           <div className="py-2 md:w-1/2">
             <div className="h-68 bg-gradient-to-r rounded-lg from-[#e51515] to-[#a80303]">
               <div className="relative w-full h-full bg-gradient-to-r rounded-lg from-[#166856] to-[#0a759cc8]">
                 <div className="p-6 w-full">
-                  <h1 className="font-serif text-white font-bold lg:pl-20 pt-8 text-3xl self-center leading-loose text-center">
+                  <h1 className="font-serif text-white font-bold pt-8 text-3xl leading-loose text-center">
                     Our Roots
                   </h1>
-                  <p className="font-sans text-white text-2xl self-center max-[420px]:text-base leading-loose lg:px-20 pb-8 text-left">
+                  <p className="font-sans text-white text-2xl max-[420px]:text-base leading-loose lg:px-10 pb-8 text-left">
                     Harvest Center was planted through the initiative of RCCG
                     Lagos Province 20 Lekki-Lagos under Pastor Okey Mofunanya.
                     We are presently under the group of churches in RCCG Asia
@@ -116,10 +116,10 @@ function About() {
             <div className="w-full h-68 bg-gradient-to-r rounded-lg from-[#005158] to-[#00101b]">
               <div className="w-full h-full rounded-lg ">
                 <div className="p-6">
-                  <h1 className="font-serif text-white font-bold text-center lg:pl-24 pt-8 text-3xl self-center leading-loose">
+                  <h1 className="font-serif text-white font-bold text-center pt-8 text-3xl self-center leading-loose">
                     Our Roots
                   </h1>
-                  <p className="font-sans text-white text-2xl max-[420px]:text-base self-center leading-loose lg:px-24 pb-8 text-left">
+                  <p className="font-sans text-white text-2xl max-[420px]:text-base self-center leading-loose lg:px-4 pb-6 text-left">
                     Harvest Center was planted through the initiative of RCCG
                     Lagos Province 20 Lekki-Lagos under Pastor Okey Mofunanya.
                     We are presently under the group of churches in RCCG Asia
@@ -140,7 +140,7 @@ function About() {
             <h1 className="font-serif font-bold text-3xl self-center pt-4 leading-loose text-white">
               Our Beliefs
             </h1>
-            <p className="font-serif text-2xl max-[420px]:text-base self-center leading-loose text-white max-md:px-24 pb-8 text-left indent-5">
+            <p className="font-serif text-2xl max-[420px]:text-base self-center leading-loose text-white max-md:px-16 pb-8 text-left indent-5">
               As a Parish of the Redeemed Christian Church of God we stand by
               the original vision and mission statement of RCCG. We believe
               that Jesus Christ is Lord and that salvation and access to the
