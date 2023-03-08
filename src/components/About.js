@@ -56,7 +56,7 @@ function About() {
           </nav>
         </header>
       </div>
-      <div className="h-2/4 w-full">
+      <div className="lg:h-2/4 w-full">
         <div className="w-full lg:h-[30rem] max-sm:h-[15.7vh] max-lg:h-[23.5vh] absolute z-10 ">
           <div className="w-full flex justify-center items-center">
             <div className="flex justify-center content-center lg:h-[5rem] max-sm:h-12 max-lg:h-16 w-[60%] bg-[#154163] bg-opacity-90 rounded-tl-3xl rounded-br-3xl absolute bottom-0">
