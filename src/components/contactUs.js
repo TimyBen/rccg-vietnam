@@ -61,9 +61,9 @@ const ContactUs = () => {
           </nav>
         </header>
       </div>
-      <div className="h-2/4 w-full">
+      <div className="lg:h-full w-full">
         <div className="w-full lg:h-[30rem] max-sm:h-[15.7vh] max-lg:h-[23.5vh] absolute z-10 ">
-          <div className="w-full flex justify-center items-center">
+          <div className="w-full h-full flex justify-center items-center">
             <div className="flex justify-center content-center lg:h-[5rem] max-sm:h-12 max-lg:h-16 w-[60%] bg-[#154163] bg-opacity-90 rounded-tl-3xl rounded-br-3xl absolute bottom-0">
               <h1 className="justify-center flex self-center text-4xl max-sm:text-2xl font-serif text-white tracking-wide font-Bold">
                 Contact
@@ -71,7 +71,7 @@ const ContactUs = () => {
             </div>
           </div>
         </div>
-        <div className="w-full h-fit">
+        <div className="w-full h-full">
           <img
             className="w-full lg:h-[30rem] blur-sm bg-center bg-contain bg-no-repeat"
             src={WorshipBg}
