@@ -10,11 +10,11 @@ const Brief = () => {
     <>
       <div className="w-full">
         <div className="w-full min-h-[35rem] flex max-[420px]:flex-col max-lg:flex-col justify-between bg-gradient-to-r from-[#015c64] to-[#042549] items-center py-12 px-12 text-white ">
-          <div className="w-[25rem] border-4 h-[55vh] p-6  hover:bg-[#1e4b55a9] ease-linear transform transition duration-500 rounded-lg flex justify-center items-center flex-col">
+          <div className="w-[25rem] border-4 h-[60vh] p-6  hover:bg-[#1e4b55a9] ease-linear transform transition duration-500 rounded-lg flex justify-center items-center flex-col">
             <h1 className="font-climate font-semibold text-[2rem] text-center leading-loose tracking-wider max-[420px]:text-2xl">About Our Church</h1>
             <p className="font-serif text-left indent-5 text-xl leading-relaxed max-[420px]:text-lg">Harvest Center Parish Vietnam is a Parish of the The Redeemed Christian Church of God ( RCCG ) VIETNAM. We have been in Vietnam since 2013 , ministering to the spiritual needs of those who are heavy burden and desirous of a relationship with our Lord and Savior Jesus Christ.</p>
           </div>
-          <div className="w-[25rem] border-4 h-[55vh] p-6 hover:bg-[#1b3850c8] ease-linear transform  transition duration-500 rounded-lg flex justify-center items-center flex-col">
+          <div className="w-[25rem] border-4 h-[60vh] p-6 hover:bg-[#1b3850c8] ease-linear transform  transition duration-500 rounded-lg flex justify-center items-center flex-col">
             <h1 className="font-climate font-semibold text-[2rem] text-center leading-loose tracking-wider max-[420px]:text-2xl">Our Service Times</h1>
             <p className="border-b-2 border-t-2 leading-relaxed flex flex-col font-serif text-xl py-2 max-[420px]:text-lg">
               <span>Services On Sundays</span>
@@ -27,7 +27,7 @@ const Brief = () => {
               <span><h1>Thursdays</h1>Faith Clinic<br /> 7:00PM -8:00PM</span>
             </p>
           </div>
-          <div className="w-[25rem] border-4 h-[55vh] p-6 hover:bg-[#1b3850c8] ease-linear transform transition duration-500 rounded-lg flex justify-center content-center pt-16 flex-col">
+          <div className="w-[25rem] border-4 h-[60vh] p-6 hover:bg-[#1b3850c8] ease-linear transform transition duration-500 rounded-lg flex justify-center content-center pt-16 flex-col">
             <h1 className="font-climate font-semibold text-[2rem] text-center tracking-wider max-[420px]:text-2xl">Worship Center</h1>
             <div className="w-full h-72 flex flex-col justify-center items-center gap-2">
               <div className="w-full px-8 pb-4 flex flex-col justify-between gap-2 items-center">
