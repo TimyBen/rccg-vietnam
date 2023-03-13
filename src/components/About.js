@@ -115,7 +115,7 @@ function About() {
               <div className="w-full h-full rounded-lg ">
                 <div className="p-6">
                   <h1 className="font-serif text-white font-bold text-center pt-8 text-3xl self-center leading-loose">
-                    Our Roots
+                    Our Vision
                   </h1>
                   <p className="font-sans text-white text-2xl max-[420px]:text-base self-center leading-loose lg:px-4 pb-6 text-left">
                     Harvest Center was planted through the initiative of RCCG
@@ -138,7 +138,7 @@ function About() {
             <h1 className="font-serif font-bold text-3xl self-center pt-4 leading-loose text-white">
               Our Beliefs
             </h1>
-            <p className="font-serif text-2xl max-[420px]:text-base self-center leading-loose text-white max-md:px-16 pb-8 text-left indent-5">
+            <p className="font-serif text-2xl max-[420px]:text-base self-center leading-loose text-white max-md:px-4 pb-8 text-left indent-5">
               As a Parish of the Redeemed Christian Church of God we stand by
               the original vision and mission statement of RCCG. We believe
               that Jesus Christ is Lord and that salvation and access to the
