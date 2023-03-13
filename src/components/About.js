@@ -82,7 +82,7 @@ function About() {
               Harvest Center Parish Vietnam is a Parish of the The Redeemed
               Christian Church of God ( RCCG ) VIETNAM. We have been in Vietnam
               since 2013 , ministering to the spiritual needs of those who are
-              heavy burden and desirous of a relationship with our Lord and
+              heavy burdened and desirous of a relationship with our Lord and
               Savior Jesus Christ.
             </p>
           </div>
@@ -101,7 +101,7 @@ function About() {
                     We are presently under the group of churches in RCCG Asia
                     Continent. We began our missionary and soul lifting
                     assignment in 2013. To God be the glory , through this
-                    mandate lives have been liberated from the realm of
+                    mandate, lives have been liberated from the realm of
                     darkness, many have found their path in life and generally
                     so many have discovered that their citizenship is in the
                     kingdom of Our Lord And Savior Jesus Christ.

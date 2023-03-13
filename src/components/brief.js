@@ -17,12 +17,14 @@ const Brief = () => {
           <div className="w-[25rem] border-4 h-full p-6 hover:bg-[#1b3850c8] ease-linear transform  transition duration-500 rounded-lg flex justify-center items-center flex-col">
             <h1 className="font-climate font-semibold text-[2rem] text-center leading-loose tracking-wider max-[420px]:text-xs">Our Service Times</h1>
             <p className="border-b-2 border-t-2 leading-relaxed flex flex-col font-serif text-xl py-2 max-[420px]:text-xs">
-              <span> Worship Services On Sundays</span>
-              <span>8:00AM - 9:30AM</span>
+              <span>Services On Sundays</span>
+              <span> <h1>Sunday School: </h1>9:30AM - 10:30AM</span>
+              <span> <h1>Worship Service: </h1>9:30AM - 10:30AM</span>
             </p>
             <p className="border-b-2 leading-relaxed flex flex-col font-serif text-xl py-2 max-[420px]:text-xs">
-              <span>Mid-week Services on Tuesdays</span>
-              <span>Digging Deep (Bible Study): <br /> 7:00PM -8:00PM</span>
+              <span>Mid-week Services</span>
+              <span><h1>Tuesdays</h1>Digging Deep (Bible Study): <br /> 7:00PM -8:00PM</span>
+              <span><h1>Thursdays</h1>Faith Clinic: <br /> 7:00PM -8:00PM</span>
             </p>
           </div>
           <div className="w-[25rem] border-4 h-full p-6 hover:bg-[#1b3850c8] ease-linear transform transition duration-500 rounded-lg flex justify-center content-center pt-16 flex-col">
