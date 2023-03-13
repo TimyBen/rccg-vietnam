@@ -17,7 +17,7 @@ const Brief = () => {
           <div className="w-[25rem] border-4 h-[60vh] p-6 hover:bg-[#1b3850c8] ease-linear transform  transition duration-500 rounded-lg flex justify-center items-center flex-col">
             <h1 className="w-full font-climate font-semibold text-[2rem] text-center leading-loose tracking-wider max-[420px]:text-2xl border-b-2">Our Service Times</h1>
             <p className="border-b-2 leading-relaxed flex flex-col font-serif text-xl py-2 max-[420px]:text-lg">
-              <span>Services On Sundays</span>
+              <span>Sundays Services</span>
               <span> <h1>Sunday School</h1>9:30AM - 10:30AM</span>
               <span> <h1>Worship Service</h1>10:30AM - 12:00AM</span>
             </p>
