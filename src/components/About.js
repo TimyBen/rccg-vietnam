@@ -72,7 +72,7 @@ function About() {
           alt=""
         />
       </div>
-      <div className="w-full h-full">
+      <div className="w-full h-full pb-2">
         <div className="w-full h-fit rounded-b-xl bg-white bg-opacity-90 lg:px-24 lg:p-16">
           <div className=" h-fit w-full flex flex-col justify-center items-center px-2 border-opacity-5">
             <h1 className="font-serif font-bold text-3xl self-center pt-4 leading-loose text-black">
@@ -87,8 +87,8 @@ function About() {
             </p>
           </div>
         </div>
-        <div className="w-full min-h-full flex max-[420px]:flex-col justify-between content-center gap-2 ">
-          <div className="py-2 md:w-1/2">
+        <div className="w-full min-h-full flex max-[420px]:flex-col justify-between content-center gap-2 pb-3">
+          <div className="pt-2 md:w-1/2">
             <div className="h-68 bg-gradient-to-r rounded-lg from-[#e51515] to-[#a80303]">
               <div className="relative w-full h-full bg-gradient-to-r rounded-lg from-[#166856] to-[#0a759cc8]">
                 <div className="p-6 w-full">
@@ -110,7 +110,7 @@ function About() {
               </div>
             </div>
           </div>
-          <div className="py-2 md:w-1/2 h-fit flex flex-col gap-6">
+          <div className="md:w-1/2 h-fit flex flex-col gap-2">
             <div className="w-full h-68 bg-gradient-to-r rounded-lg from-[#005158] to-[#00101b]">
               <div className="w-full h-full rounded-lg ">
                 <div className="p-6">
