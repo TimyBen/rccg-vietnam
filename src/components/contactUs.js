@@ -19,13 +19,13 @@ const ContactUs = () => {
             to={"/"}
             className="px-6 py-6 flex justify-center items-center h-fit"
           >
-            <img className="w-28 h-28 max-[420px]:w-12 max-[420px]:h-12" src={logo} alt="" />
-            <div className="text-xl justify-center pl-6 items-center  font-bold text-white leading-loose">
-              <h1 className="text-3xl tracking-wider font-climate leading-normal font-Bold max-[420px]:text-base">
-                Harvest Center Parish
-              </h1>
-              <h1 className="text-2xl tracking-wider font-serif font-Bold max-[420px]:text-xs">Vietnam</h1>
-            </div>
+            <img className="w-32 h-32 max-[420px]:w-20 max-[420px]:h-20" src={logo} alt="" />
+              <div className="text-xl justify-center pl-6 items-center  font-bold text-white leading-loose">
+                <h1 className="text-3xl tracking-wider font-climate leading-normal font-Bold max-[420px]:text-xl">
+                  Harvest Center Parish
+                </h1>
+                <h1 className="text-2xl tracking-wider font-serif font-Bold max-[420px]:text-lg">Vietnam</h1>
+              </div>
           </Link>
           <nav className="lg:px-32 h-fit max-[420px]:w-full navbar navbar-expand-lg navbar-light">
             <ul className="max-[420px]:text-base w-full text-white justify-between content-center leading-normal font-serif font-medium text-xl lg:pr-4  lg:py-12 max-[420px]:p-2 flex navbar-nav mr-auto">
