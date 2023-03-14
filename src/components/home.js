@@ -73,7 +73,7 @@ function Home() {
                 />
                 <div className="absolute max-lg:h-[45vh] max-sm:h-[35vh] lg:h-[85vh] flex justify-center items-center top-0 w-full">
                   <div className="h-full font-serif font-medium w-full bg-[#24354512] text-[#f4faff] flex justify-center items-center ">
-                    <h1 className="w-full animate-fade lg:h-[85vh] sm:h-[35vh] max-[420px]:h-[35vh] font-extrabold text-[4rem] max-[420px]:text-lg text-center rounded-lg uppercase leading-loose antialiased bg-[#0104062c] tracking-wide description flex justify-center items-center">
+                    <h1 className="w-full animate-fade lg:h-[85vh] sm:h-[35vh] max-[420px]:h-[35vh] text-[4rem] font-extrabold max-[420px]:text-lg text-center rounded-lg uppercase leading-loose antialiased bg-[#0104062c] tracking-wide description flex justify-center items-center">
                       Live by Faith <br /> be known for Love <br /> & be a voice of Hope
                     </h1>
                     {/* <div className="w-full h-full blur-[10px] bg-black absolute"></div> */}
@@ -88,7 +88,7 @@ function Home() {
                 />
                 <div className="absolute max-sm:h-[35vh] max-lg:h-[45vh] lg:h-[75vh] flex justify-center items-center top-0 w-full">
                   <div className="h-full font-serif font-medium w-full bg-[#24354512] text-[#f4faff] flex justify-center items-center ">
-                    <h1 className="w-full animate-fade lg:h-[85vh] max-sm:h-[35vh] max-[420px]:h-[35vh] font-extrabold text-[4rem] max-[420px]:text-base text-center rounded-lg uppercase leading-loose antialiased bg-[#0104062c] tracking-wide description flex justify-center items-center">
+                    <h1 className="w-full animate-fade lg:h-[85vh] max-sm:h-[35vh] max-[420px]:h-[35vh] text-[4rem] font-extrabold max-[420px]:text-base text-center rounded-lg uppercase leading-loose antialiased bg-[#0104062c] tracking-wide description flex justify-center items-center">
                       Harvest Center Parish <br /> Football team
                     </h1>
                   </div>
