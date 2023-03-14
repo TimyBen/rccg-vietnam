@@ -19,12 +19,12 @@ function Home() {
               to={"/"}
               className="px-6 py-6 flex justify-center items-center h-fit"
             >
-              <img className="w-28 h-28 max-[420px]:w-12 max-[420px]:h-12" src={logo} alt="" />
+              <img className="w-32 h-32 max-[420px]:w-20 max-[420px]:h-20" src={logo} alt="" />
               <div className="text-xl justify-center pl-6 items-center  font-bold text-white leading-loose">
-                <h1 className="text-3xl tracking-wider font-climate leading-normal font-Bold max-[420px]:text-base">
+                <h1 className="text-3xl tracking-wider font-climate leading-normal font-Bold max-[420px]:text-xl">
                   Harvest Center Parish
                 </h1>
-                <h1 className="text-2xl tracking-wider font-serif font-Bold max-[420px]:text-xs">Vietnam</h1>
+                <h1 className="text-2xl tracking-wider font-serif font-Bold max-[420px]:text-lg">Vietnam</h1>
               </div>
             </Link>
             <nav className="lg:px-32 h-fit max-[420px]:w-full navbar navbar-expand-lg navbar-light">
@@ -62,33 +62,33 @@ function Home() {
           </header>
         </div>
 
-        <div className="w-full sm:h-[45vh] lg:h-[75vh]">
+        <div className="w-full sm:h-[45vh] lg:h-[85vh]">
           <div className="slide-container w-full">
             <Fade className="w-full h-full">
-              <div className="each-fade sm:h-[35vh] lg:h-[75vh]">
+              <div className="each-fade sm:h-[35vh] lg:h-[85vh]">
                 <img
-                  className="w-full lg:h-[75vh] max-sm:h-[35vh] max-[420px]:h-[35vh] aspect-auto object-fill bg-center bg-contain bg-no-repeat blur-[2px]"
+                  className="w-full lg:h-[85vh] max-sm:h-[35vh] max-[420px]:h-[35vh] aspect-auto object-fill brightness-2 bg-center bg-contain bg-no-repeat blur-[2px]"
                   src={Img_1}
                   alt=""
                 />
-                <div className="absolute max-lg:h-[45vh] max-sm:h-[35vh] lg:h-[75vh] flex justify-center items-center top-0 w-full">
-                  <div className="h-full font-serif font-medium w-full lg:py-32 lg:px-20 bg-[#24354512] text-[#f4faff] flex justify-center items-center ">
-                    <h1 className="w-[60rem] animate-fade lg:h-[75vh] sm:h-[35vh] max-[420px]:h-[25vh] text-[3rem] max-[420px]:text-base text-center rounded-lg uppercase leading-loose antialiased bg-[#01040622] tracking-wide description flex justify-center items-center">
+                <div className="absolute max-lg:h-[45vh] max-sm:h-[35vh] lg:h-[85vh] flex justify-center items-center top-0 w-full">
+                  <div className="h-full font-serif font-medium w-full bg-[#24354512] text-[#f4faff] flex justify-center items-center ">
+                    <h1 className="w-full animate-fade lg:h-[85vh] sm:h-[35vh] max-[420px]:h-[35vh] text-[3rem] max-[420px]:text-base text-center rounded-lg uppercase leading-loose antialiased bg-[#0104062c] tracking-wide description flex justify-center items-center">
                       Live by Faith <br /> be known for Love <br /> & be a voice of Hope
                     </h1>
                     {/* <div className="w-full h-full blur-[10px] bg-black absolute"></div> */}
                   </div>
                 </div>
               </div>
-              <div className="each-fade sm:h-[45vh] lg:h-[75vh]">
+              <div className="each-fade sm:h-[45vh] lg:h-[85vh]">
                 <img
-                  className="w-full lg:h-[75vh] max-sm:h-[35vh] max-[420px]:h-[35vh] object-fill aspect-auto bg-center bg-contain bg-no-repeat brightness-5 blur-[0.5px]"
+                  className="w-full lg:h-[85vh] max-sm:h-[35vh] max-[420px]:h-[35vh] object-fill aspect-auto bg-center bg-contain bg-no-repeat brightness-5 blur-[0.5px]"
                   src={Img_2}
                   alt=""
                 />
                 <div className="absolute max-sm:h-[35vh] max-lg:h-[45vh] lg:h-[75vh] flex justify-center items-center top-0 w-full">
-                  <div className="h-full font-serif font-medium w-full lg:py-32 lg:px-20 bg-[#24354512] text-[#f4faff] flex justify-center items-center ">
-                    <h1 className="w-[60rem] animate-fade lg:h-[75vh] max-sm:h-[35vh] max-[420px]:h-[25vh] text-[3rem] max-[420px]:text-base text-center rounded-lg uppercase leading-loose antialiased bg-[#01040622] tracking-wide description flex justify-center items-center">
+                  <div className="h-full font-serif font-medium w-full bg-[#24354512] text-[#f4faff] flex justify-center items-center ">
+                    <h1 className="w-full animate-fade lg:h-[85vh] max-sm:h-[35vh] max-[420px]:h-[35vh] text-[3rem] max-[420px]:text-base text-center rounded-lg uppercase leading-loose antialiased bg-[#0104062c] tracking-wide description flex justify-center items-center">
                       Harvest Center Parish <br /> Football team
                     </h1>
                   </div>

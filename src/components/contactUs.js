@@ -19,13 +19,13 @@ const ContactUs = () => {
             to={"/"}
             className="px-6 py-6 flex justify-center items-center h-fit"
           >
-            <img className="w-28 h-28 max-[420px]:w-12 max-[420px]:h-12" src={logo} alt="" />
-            <div className="text-xl justify-center pl-6 items-center  font-bold text-white leading-loose">
-              <h1 className="text-3xl tracking-wider font-climate leading-normal font-Bold max-[420px]:text-base">
-                Harvest Center Parish
-              </h1>
-              <h1 className="text-2xl tracking-wider font-serif font-Bold max-[420px]:text-xs">Vietnam</h1>
-            </div>
+            <img className="w-32 h-32 max-[420px]:w-20 max-[420px]:h-20" src={logo} alt="" />
+              <div className="text-xl justify-center pl-6 items-center  font-bold text-white leading-loose">
+                <h1 className="text-3xl tracking-wider font-climate leading-normal font-Bold max-[420px]:text-xl">
+                  Harvest Center Parish
+                </h1>
+                <h1 className="text-2xl tracking-wider font-serif font-Bold max-[420px]:text-lg">Vietnam</h1>
+              </div>
           </Link>
           <nav className="lg:px-32 h-fit max-[420px]:w-full navbar navbar-expand-lg navbar-light">
             <ul className="max-[420px]:text-base w-full text-white justify-between content-center leading-normal font-serif font-medium text-xl lg:pr-4  lg:py-12 max-[420px]:p-2 flex navbar-nav mr-auto">
@@ -78,9 +78,9 @@ const ContactUs = () => {
         />
       </div>
       <div className="h-fit flex bg-[#0e485267] bg-opacity-30 flex-row w-full">
-        <div className="lg:h-[100vh] w-full flex justify-center items-center lg:px-16 px-4 py-8">
-          <div className="flex max-[420px]:flex-col max-lg:flex-row w-full justify-between items-center gap-4">
-            <Card className="bg-[#073854e0] hover:bg-[#036871ea] flex flex-col justify-center text-white font-serif rounded-[8rem] lg:h-[40rem] lg:w-[25rem] w-72 items-center p-8 ease-linear transform hover:scale-125 transition duration-500">
+        <div className="lg:h-[80vh] w-full flex justify-center items-center lg:px-32 px-4 py-8">
+          <div className="flex max-[420px]:flex-col max-lg:flex-row w-full justify-between items-center gap-2">
+            <Card className="bg-[#073854e0] hover:bg-[#036871ea] flex flex-col justify-center text-white font-serif rounded-[8rem] lg:h-[30rem] lg:w-[20rem] w-72 items-center p-8 ease-linear transform hover:scale-125 transition duration-500">
               <FaLandmark className="pb-4 w-16 h-16 max-sm:w-10 max-sm:h-10 max-md:w-10 max-md:h-10" />
               <Card.Body>
                 <Card.Title className="text-2xl max-[420px]:text-base max-lg:text-base font-semibold leading-relaxed">
@@ -91,7 +91,7 @@ const ContactUs = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card className="bg-[#073854e0] hover:bg-[#036871ea] flex flex-col justify-center text-white font-serif rounded-[8rem] lg:h-[40rem] lg:w-[25rem] w-72 items-center p-8 ease-linear transform hover:scale-125 transition duration-500">
+            <Card className="bg-[#073854e0] hover:bg-[#036871ea] flex flex-col justify-center text-white font-serif rounded-[8rem] lg:h-[30rem] lg:w-[20rem]  w-72 items-center p-8 ease-linear transform hover:scale-125 transition duration-500">
               <TbPhoneCall className="pb-4 w-16 h-16 max-sm:w-10 max-sm:h-10 max-md:w-10 max-md:h-10" />
               <Card.Body>
                 <Card.Title className="text-2xl max-[420px]:text-base max-lg:text-base font-semibold leading-relaxed">
@@ -102,7 +102,7 @@ const ContactUs = () => {
                 </Card.Text>
               </Card.Body>
             </Card>
-            <Card className="bg-[#073854e0] hover:bg-[#036871ea] flex flex-col justify-center text-white font-serif rounded-[8rem] lg:h-[40rem] lg:w-[25rem] w-72 items-center p-8 ease-linear transform hover:scale-125 transition duration-500">
+            <Card className="bg-[#073854e0] hover:bg-[#036871ea] flex flex-col justify-center text-white font-serif rounded-[8rem] lg:h-[30rem] lg:w-[20rem] w-72 items-center p-8 ease-linear transform hover:scale-125 transition duration-500">
               <TbMail className="pb-4 w-16 h-16 max-sm:w-10 max-sm:h-10 max-md:w-10 max-md:h-10" />
               <Card.Body>
                 <Card.Title className="text-2xl max-[420px]:text-base max-lg:text-base font-semibold leading-relaxed">

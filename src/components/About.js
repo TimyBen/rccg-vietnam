@@ -14,12 +14,12 @@ function About() {
             to={"/"}
             className="px-6 py-6 flex justify-center items-center h-fit"
           >
-            <img className="w-28 h-28 max-[420px]:w-12 max-[420px]:h-12" src={logo} alt="" />
+            <img className="w-32 h-32 max-[420px]:w-20 max-[420px]:h-20" src={logo} alt="" />
             <div className="text-xl justify-center pl-6 items-center  font-bold text-white leading-loose">
-              <h1 className="text-3xl tracking-wider font-climate leading-normal font-Bold max-[420px]:text-base">
+              <h1 className="text-3xl tracking-wider font-climate leading-normal font-Bold max-[420px]:text-xl">
                 Harvest Center Parish
               </h1>
-              <h1 className="text-2xl tracking-wider font-serif font-Bold max-[420px]:text-xs">Vietnam</h1>
+              <h1 className="text-2xl tracking-wider font-serif font-Bold max-[420px]:text-lg">Vietnam</h1>
             </div>
           </Link>
           <nav className="lg:px-32 h-fit max-[420px]:w-full navbar navbar-expand-lg navbar-light">
@@ -72,7 +72,8 @@ function About() {
           alt=""
         />
       </div>
-      <div className="w-full h-full">
+      <div className="">
+      <div className="w-full h-full pb-2">
         <div className="w-full h-fit rounded-b-xl bg-white bg-opacity-90 lg:px-24 lg:p-16">
           <div className=" h-fit w-full flex flex-col justify-center items-center px-2 border-opacity-5">
             <h1 className="font-serif font-bold text-3xl self-center pt-4 leading-loose text-black">
@@ -82,13 +83,13 @@ function About() {
               Harvest Center Parish Vietnam is a Parish of the The Redeemed
               Christian Church of God ( RCCG ) VIETNAM. We have been in Vietnam
               since 2013 , ministering to the spiritual needs of those who are
-              heavy burden and desirous of a relationship with our Lord and
+              heavy burdened and desirous of a relationship with our Lord and
               Savior Jesus Christ.
             </p>
           </div>
         </div>
-        <div className="w-full min-h-full flex max-[420px]:flex-col justify-between content-center gap-2 ">
-          <div className="py-2 md:w-1/2">
+        <div className="w-full min-h-full flex max-[420px]:flex-col justify-between content-center gap-2 pb-3">
+          <div className="pt-2 md:w-1/2">
             <div className="h-68 bg-gradient-to-r rounded-lg from-[#e51515] to-[#a80303]">
               <div className="relative w-full h-full bg-gradient-to-r rounded-lg from-[#166856] to-[#0a759cc8]">
                 <div className="p-6 w-full">
@@ -101,7 +102,7 @@ function About() {
                     We are presently under the group of churches in RCCG Asia
                     Continent. We began our missionary and soul lifting
                     assignment in 2013. To God be the glory , through this
-                    mandate lives have been liberated from the realm of
+                    mandate, lives have been liberated from the realm of
                     darkness, many have found their path in life and generally
                     so many have discovered that their citizenship is in the
                     kingdom of Our Lord And Savior Jesus Christ.
@@ -110,12 +111,12 @@ function About() {
               </div>
             </div>
           </div>
-          <div className="py-2 md:w-1/2 h-fit flex flex-col gap-6">
+          <div className="md:w-1/2 h-fit flex flex-col gap-2">
             <div className="w-full h-68 bg-gradient-to-r rounded-lg from-[#005158] to-[#00101b]">
               <div className="w-full h-full rounded-lg ">
                 <div className="p-6">
                   <h1 className="font-serif text-white font-bold text-center pt-8 text-3xl self-center leading-loose">
-                    Our Roots
+                    Our Vision
                   </h1>
                   <p className="font-sans text-white text-2xl max-[420px]:text-base self-center leading-loose lg:px-4 pb-6 text-left">
                     Harvest Center was planted through the initiative of RCCG
@@ -138,7 +139,7 @@ function About() {
             <h1 className="font-serif font-bold text-3xl self-center pt-4 leading-loose text-white">
               Our Beliefs
             </h1>
-            <p className="font-serif text-2xl max-[420px]:text-base self-center leading-loose text-white max-md:px-16 pb-8 text-left indent-5">
+            <p className="font-serif text-2xl max-[420px]:text-base self-center leading-loose text-white max-md:px-4 pb-8 text-left indent-5">
               As a Parish of the Redeemed Christian Church of God we stand by
               the original vision and mission statement of RCCG. We believe
               that Jesus Christ is Lord and that salvation and access to the
@@ -148,6 +149,7 @@ function About() {
               of our Lord and Savior . John 1:12-13, Romans 10:9-10
             </p>
           </div>
+        </div>
         </div>
       </div>
       <Brief />
