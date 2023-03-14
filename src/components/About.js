@@ -72,6 +72,7 @@ function About() {
           alt=""
         />
       </div>
+      <div className="">
       <div className="w-full h-full pb-2">
         <div className="w-full h-fit rounded-b-xl bg-white bg-opacity-90 lg:px-24 lg:p-16">
           <div className=" h-fit w-full flex flex-col justify-center items-center px-2 border-opacity-5">
@@ -148,6 +149,7 @@ function About() {
               of our Lord and Savior . John 1:12-13, Romans 10:9-10
             </p>
           </div>
+        </div>
         </div>
       </div>
       <Brief />
