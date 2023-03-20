@@ -120,7 +120,7 @@ function Home() {
           <div className="bg-[#0a353c1a] max-[420px]:h-[120vh] max-[420px]:px-4 md:px-10 lg:px-20">
             <div className="pt-4 px-2 flex max-[420px]:flex-col max-[420px]:h-full sm:flex-col md:flex-col lg:flex-row lg:gap-20 w-full justify-between items-center">
               <div className="w-fit h-fit flex justify-center items-center pb-3">
-                <img className="w-[36vw] h-[58vh] bg-cover max-[420px]:w-[55vw] max-[420px]:h-[35vh] brighness-70" src={Img_05} alt="" />
+                <img className="w-[36vw] md:w-[58vw] h-[58vh] bg-cover max-[420px]:w-[55vw] max-[420px]:h-[35vh] brighness-70" src={Img_05} alt="" />
               </div>
               <div className="w-full lg:pt-4 h-full max-[420px]:h-full flex justify-center lg:border-2 border-opacity-60 rounded-md border-indigo-500 items-center bg-[]">
                 <p className="flex flex-col h-[70vh] gap-4 justify-center items-center text-left text-black font-sans font-xl antialiased">
