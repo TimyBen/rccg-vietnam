@@ -12,7 +12,7 @@ import Brief from "./brief";
 
 const ContactUs = () => {
   return (
-    <>
+    <div className="bg-[#114e5f]">
       <div className="w-full bg-gradient-to-r from-[#002751] to-[#036871] ">
         <header className="w-full h-fit flex max-[420px]:flex-col items-center justify-between">
           <Link
@@ -20,12 +20,12 @@ const ContactUs = () => {
             className="px-6 py-6 flex justify-center items-center h-fit"
           >
             <img className="w-32 h-32 max-[420px]:w-20 max-[420px]:h-20" src={logo} alt="" />
-              <div className="text-xl justify-center pl-6 items-center  font-bold text-white leading-loose">
-                <h1 className="text-3xl tracking-wider font-climate leading-normal font-Bold max-[420px]:text-xl">
-                  Harvest Center Parish
-                </h1>
-                <h1 className="text-2xl tracking-wider font-serif font-Bold max-[420px]:text-lg">Vietnam</h1>
-              </div>
+            <div className="text-xl justify-center pl-6 items-center  font-bold text-white leading-loose">
+              <h1 className="text-3xl tracking-wider font-climate leading-normal font-Bold max-[420px]:text-xl">
+                Harvest Center Parish
+              </h1>
+              <h1 className="text-2xl tracking-wider font-serif font-Bold max-[420px]:text-lg">Vietnam</h1>
+            </div>
           </Link>
           <nav className="lg:px-32 h-fit max-[420px]:w-full navbar navbar-expand-lg navbar-light">
             <ul className="max-[420px]:text-base w-full text-white justify-between content-center leading-normal font-serif font-medium text-xl lg:pr-4  lg:py-12 max-[420px]:p-2 flex navbar-nav mr-auto">
@@ -77,7 +77,7 @@ const ContactUs = () => {
           alt=""
         />
       </div>
-      <div className="h-fit flex bg-[#0e485267] bg-opacity-30 flex-row w-full">
+      <div className="h-fit flex flex-row w-full">
         <div className="lg:h-[80vh] w-full flex justify-center items-center lg:px-32 px-4 py-8">
           <div className="flex max-[420px]:flex-col max-lg:flex-row w-full justify-between items-center gap-2">
             <Card className="bg-[#073854e0] hover:bg-[#036871ea] flex flex-col justify-center text-white font-serif rounded-[8rem] lg:h-[30rem] lg:w-[20rem] w-72 items-center p-8 ease-linear transform hover:scale-125 transition duration-500">
@@ -118,7 +118,7 @@ const ContactUs = () => {
       </div>
       <Cont className="" />
       <Brief />
-    </>
+    </div>
   );
 };
 
