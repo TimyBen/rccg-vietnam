@@ -73,83 +73,93 @@ function About() {
         />
       </div>
       <div className="">
-      <div className="w-full h-full pb-2">
-        <div className="w-full h-fit rounded-b-xl bg-white bg-opacity-90 lg:px-24 lg:p-16">
-          <div className=" h-fit w-full flex flex-col justify-center items-center px-2 border-opacity-5">
-            <h1 className="font-serif font-bold text-3xl self-center pt-4 leading-loose text-black">
-              Who Are We ?
-            </h1>
-            <p className="font-serif text-2xl self-center leading-loose text-black max-[420px]:text-base lg:px-12 pb-8 ">
-              Harvest Center Parish Vietnam is a Parish of the The Redeemed
-              Christian Church of God ( RCCG ) VIETNAM. We have been in Vietnam
-              since 2013 , ministering to the spiritual needs of those who are
-              heavy burdened and desirous of a relationship with our Lord and
-              Savior Jesus Christ.
-            </p>
+        <div className="w-full h-full pb-2">
+          <div className="w-full h-fit rounded-b-xl bg-white bg-opacity-90 lg:px-24 lg:p-16">
+            <div className=" h-fit w-full flex flex-col justify-center items-center px-2 border-opacity-5">
+              <h1 className="font-serif font-bold text-3xl self-center pt-4 leading-loose text-black">
+                Who Are We ?
+              </h1>
+              <p className="font-serif text-2xl self-center leading-loose text-black max-[420px]:text-base lg:px-12 pb-8 ">
+                Harvest Center Parish Vietnam is a Parish of the The Redeemed
+                Christian Church of God ( RCCG ) VIETNAM. We have been in Vietnam
+                since 2013 , ministering to the spiritual needs of those who are
+                heavy burdened and desirous of a relationship with our Lord and
+                Savior Jesus Christ.
+              </p>
+            </div>
           </div>
-        </div>
-        <div className="w-full min-h-full flex max-[420px]:flex-col justify-between content-center gap-2 pb-3">
-          <div className="pt-2 md:w-1/2">
-            <div className="h-68 bg-gradient-to-r rounded-lg from-[#e51515] to-[#a80303]">
-              <div className="relative w-full h-full bg-gradient-to-r rounded-lg from-[#166856] to-[#0a759cc8]">
-                <div className="p-6 w-full">
-                  <h1 className="font-serif text-white font-bold pt-8 text-3xl leading-loose text-center">
-                    Our Roots
-                  </h1>
-                  <p className="font-sans text-white text-2xl max-[420px]:text-base leading-loose lg:px-10 pb-8 text-left">
-                    Harvest Center was planted through the initiative of RCCG
-                    Lagos Province 20 Lekki-Lagos under Pastor Okey Mofunanya.
-                    We are presently under the group of churches in RCCG Asia
-                    Continent. We began our missionary and soul lifting
-                    assignment in 2013. To God be the glory , through this
-                    mandate, lives have been liberated from the realm of
-                    darkness, many have found their path in life and generally
-                    so many have discovered that their citizenship is in the
-                    kingdom of Our Lord And Savior Jesus Christ.
-                  </p>
+          <div className="w-full min-h-full flex max-[420px]:flex-col justify-between content-center gap-2 pb-3">
+            <div className="pt-2 md:w-1/2">
+              <div className="h-68 bg-gradient-to-r rounded-lg from-[#e51515] to-[#a80303]">
+                <div className="relative w-full h-full bg-gradient-to-r rounded-lg from-[#166856] to-[#0a759cc8]">
+                  <div className="p-6 w-full">
+                    <h1 className="font-serif text-white font-bold pt-8 text-3xl leading-loose text-center">
+                      Our Roots
+                    </h1>
+                    <p className="font-sans text-white text-2xl max-[420px]:text-base leading-loose lg:px-10 pb-8 text-left">
+                      Harvest Center was planted through the initiative of RCCG
+                      Lagos Province 20 Lekki-Lagos under Pastor Okey Mofunanya.
+                      We are presently under the group of churches in RCCG Asia
+                      Continent. We began our missionary and soul lifting
+                      assignment in 2013. To God be the glory , through this
+                      mandate, lives have been liberated from the realm of
+                      darkness, many have found their path in life and generally
+                      so many have discovered that their citizenship is in the
+                      kingdom of Our Lord And Savior Jesus Christ.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="md:w-1/2 h-fit flex flex-col gap-2">
-            <div className="w-full h-68 bg-gradient-to-r rounded-lg from-[#005158] to-[#00101b]">
-              <div className="w-full h-full rounded-lg ">
-                <div className="p-6">
-                  <h1 className="font-serif text-white font-bold text-center pt-8 text-3xl self-center leading-loose">
-                    Our Vision
-                  </h1>
-                  <p className="font-sans text-white text-2xl max-[420px]:text-base self-center leading-loose lg:px-4 pb-6 text-left">
-                    Harvest Center was planted through the initiative of RCCG
-                    Lagos Province 20 Lekki-Lagos under Pastor Okey Mofunanya.
-                    We are presently under the group of churches in RCCG Asia
-                    Continent
-                  </p>
+            <div className="md:w-1/2 h-fit flex flex-col gap-2">
+              <div className="w-full h-68 bg-gradient-to-r rounded-lg from-[#005158] to-[#00101b]">
+                <div className="w-full h-full rounded-lg ">
+                  <div className="p-6">
+                    <h1 className="font-serif text-white font-bold text-center pt-8 text-3xl self-center leading-loose">
+                      Mission & Vision
+                    </h1>
+                    <p className="font-sans text-white text-2xl max-[420px]:text-base flex flex-col self-center leading-loose lg:px-4 pb-6 text-left">
+                      <span>1. To make heaven.</span>
+
+                      <span>2. To take as many people with us.</span>
+
+                      <span>3. To have a member of RCCG in every family of all nations.</span>
+
+                      <span>4. To accomplish No. 1 above, holiness will be our lifestyle.</span>
+
+                      <span>5. To accomplish No. 2 and 3 above, we will plant churches within five minutes walking distance in every city and town of developing countries and within five minutes driving distance in every city and town of developed countries.</span>
+
+                      <span>6. We will pursue these objectives until every Nation in the world is reached for the Lord Jesus Christ</span>
+                    </p>
+                  </div>
                 </div>
               </div>
+
             </div>
+          </div>
+          <div className="w-full h-fit flex justify-center items-center pb-4">
             <img
-              className="rounded-2xl blur-[2px] bg-center bg-contain bg-no-repeat"
+              className="w-[90vw] max-sm:h-[30vh] max-lg:h-[90vh] rounded-2xl blur-[2px] bg-center bg-contain bg-no-repeat"
               src={ChoirPic}
               alt=""
             />
           </div>
-        </div>
-        <div className="w-full h-fit rounded-t-3xl bg-transparent border-4 lg:px-24 lg:p-16">
-          <div className=" h-fit w-full flex flex-col justify-center items-center px-4 border-opacity-5">
-            <h1 className="font-serif font-bold text-3xl self-center pt-4 leading-loose text-white">
-              Our Beliefs
-            </h1>
-            <p className="font-serif text-2xl max-[420px]:text-base self-center leading-loose text-white max-md:px-4 pb-8 text-left indent-5">
-              As a Parish of the Redeemed Christian Church of God we stand by
-              the original vision and mission statement of RCCG. We believe
-              that Jesus Christ is Lord and that salvation and access to the
-              Almighty God can only be obtained through Him. Acts 4:12, 1
-              Timothy 2:5. As many therefore that come to Him , they shall
-              obtain mercy and be accepted as beloved children of the Kingdom
-              of our Lord and Savior . John 1:12-13, Romans 10:9-10
-            </p>
+          <div className="w-full h-fit rounded-t-3xl bg-transparent border-4 lg:px-24 lg:p-16">
+            <div className=" h-fit w-full flex flex-col justify-center items-center px-4 border-opacity-5">
+              <h1 className="font-serif font-bold text-3xl self-center pt-4 leading-loose text-white">
+                Our Beliefs
+              </h1>
+              <p className="font-serif text-2xl max-[420px]:text-base self-center leading-loose text-white max-md:px-4 pb-8 text-left indent-5">
+                As a Parish of the Redeemed Christian Church of God we stand by
+                the original vision and mission statement of RCCG. We believe
+                that Jesus Christ is Lord and that salvation and access to the
+                Almighty God can only be obtained through Him. Acts 4:12, 1
+                Timothy 2:5. As many therefore that come to Him , they shall
+                obtain mercy and be accepted as beloved children of the Kingdom
+                of our Lord and Savior . John 1:12-13, Romans 10:9-10
+              </p>
+            </div>
           </div>
-        </div>
         </div>
       </div>
       <Brief />
