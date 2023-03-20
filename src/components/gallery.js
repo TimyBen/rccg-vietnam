@@ -8,7 +8,7 @@ import Img_05 from "../compressed/IMG_05.jpg";
 import { Link } from "react-router-dom";
 
 function GalleryImg() {
-  const images = [
+  const Images = [
     {
       src: { Img_01 },
       width: 320,
@@ -102,7 +102,7 @@ function GalleryImg() {
         </header>
       </div>
       <Gallery>
-      <img className="w-32 h-32 max-[420px]:w-20 max-[420px]:h-20" src={Img_01} alt="" />
+        <img className="w-32 h-32 max-[420px]:w-20 max-[420px]:h-20" src={Img_01} alt="" />
 
       </Gallery>
     </>
