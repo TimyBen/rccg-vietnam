@@ -104,7 +104,7 @@ function Home() {
             </Fade>
           </div>
         </div>
-        <div className="h-full w-full flex flex-col justify-center items-center gap-2">
+        <div className="w-full flex flex-col justify-center items-center gap-2">
           <div className="w-full flex justify-between items-center pb-2 border border-cyan-500">
             <div className="bg-[#0a353c1a] w-full h-[42vh] max-[420px]:h-[70vh] max-[420px]:px-4 md:px-5 lg:px-7">
               <h1 className="description drop-shadow-2xl uppercase leading-loose tracking-widest text-white text-[3rem] font-serif text-center max-[420px]:text-xl font-semibold pb-2 pt-4">Nice to Meet You.</h1>
