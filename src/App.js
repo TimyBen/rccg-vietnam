@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import About from "./components/About";
 import ContactUs from "./components/contactUs";
 import LifeSkill from "./components/LifeSkill";
+import GalleryImg  from "./components/gallery";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
               <Route exact path="/" element={<Home />} />
               <Route exact path="/contact" element={<ContactUs />} />
               <Route exact path="/about" element={<About />} />
+              <Route exact path="/gallery" element={<GalleryImg />} />
               <Route exact path="/lifeskill" element={<LifeSkill />} />
             </Routes>
           </div>

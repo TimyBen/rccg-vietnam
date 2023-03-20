@@ -17,18 +17,18 @@ const Brief = () => {
           <div className="w-[25rem] border-4 h-[60vh] p-6 hover:bg-[#1b3850c8] ease-linear transform  transition duration-500 rounded-lg flex justify-center items-center flex-col">
             <h1 className="w-full font-climate font-semibold text-[2rem] text-center leading-loose tracking-wider max-[420px]:text-2xl border-b-2">Our Service Times</h1>
             <p className="border-b-2 leading-relaxed flex flex-col font-serif text-xl py-2 max-[420px]:text-lg">
-              <span>Sundays Services</span>
-              <span> <h1>Sunday School</h1>9:30AM - 10:30AM</span>
-              <span> <h1>Worship Service</h1>10:30AM - 12:00AM</span>
+              <span className="font-semibold">Sundays Services</span>
+              <span>Sunday School: 9:30AM - 10:30AM</span>
+              <span>Worship Service: 10:30AM - 12:00AM</span>
             </p>
-            <p className="border-b-2 leading-relaxed flex flex-col font-serif text-xl py-2 max-[420px]:text-lg">
-              <span>Mid-week Services</span>
-              <span><h1>Tuesdays</h1>Digging Deep<br /> 7:00PM -8:00PM</span>
-              <span><h1>Thursdays</h1>Faith Clinic<br /> 7:00PM -8:00PM</span>
+            <p className="w-full border-b-2 leading-relaxed flex flex-col font-serif text-xl py-2 max-[420px]:text-lg">
+              <span className="font-semibold">Mid-week Services</span>
+              <span><h1>Tuesdays</h1>Digging Deep: 7:00PM -8:00PM</span>
+              <span><h1>Thursdays</h1>Faith Clinic: 7:00PM -8:00PM</span>
             </p>
           </div>
           <div className="w-[25rem] border-4 h-[60vh] p-6 hover:bg-[#1b3850c8] ease-linear transform transition duration-500 rounded-lg flex justify-center content-center pt-16 flex-col">
-            <h1 className="font-climate font-semibold text-[2rem] text-center tracking-wider max-[420px]:text-2xl border-b-2">Worship Center</h1>
+            <h1 className="w-full font-climate font-semibold text-[2rem] text-center leading-loose tracking-wider max-[420px]:text-2xl border-b-2">Worship Center</h1>
             <div className="h-72 flex flex-col justify-center items-center gap-2">
               <div className="px-8 pb-4 flex flex-col justify-between gap-2 items-center">
                 <FaLandmark className="w-6 h-6" />
