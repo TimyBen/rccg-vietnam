@@ -104,8 +104,8 @@ function Home() {
             </Fade>
           </div>
         </div>
-        <div className="h-full w-full flex flex-col justify-center items-center">
-          <div className="w-full flex justify-between items-center pb-2">
+        <div className="h-full w-full flex flex-col justify-center items-center gap-2">
+          <div className="w-full flex justify-between items-center pb-2 border border-cyan-500">
             <div className="bg-[#0a353c1a] w-full h-[42vh] max-[420px]:h-[70vh] max-[420px]:px-4 md:px-5 lg:px-7">
               <h1 className="description drop-shadow-2xl uppercase leading-loose tracking-widest text-white text-[3rem] font-serif text-center max-[420px]:text-xl font-semibold pb-2 pt-4">Nice to Meet You.</h1>
               <p className="description text-white text-[1.5rem] font-serif max-[420px]:text-lg px-2 text-left font- indent-7">
@@ -117,13 +117,13 @@ function Home() {
               </p>
             </div>
           </div>
-          <div className="bg-[#0a353c1a] max-[420px]:h-[120vh] max-[420px]:px-4 md:px-10 lg:px-16">
-            <div className="pt-4 px-2 flex max-[420px]:flex-col max-[420px]:h-full sm:flex-col md:flex-col lg:flex-row lg:gap-20 w-full justify-between items-center">
+          <div className="bg-[#0a353c1a] max-[420px]:h-[120vh] max-[420px]:px-4 md:px-10 lg:px-16 ">
+            <div className="pt-4 px-2 flex max-[420px]:flex-col max-[420px]:h-full sm:flex-col md:flex-col lg:flex-row lg:gap-10  w-full justify-between items-center">
               <div className="w-fit h-fit flex justify-center items-center pb-3">
-                <img className="w-[35vw] md:w-[35vw] lg:h-[45vh] bg-cover max-[420px]:w-[55vw] max-[420px]:h-[35vh] brighness-70" src={Img_05} alt="" />
+                <img className="w-[35vw] md:w-[35vw] max-lg:h-[35vh] bg-cover max-[420px]:w-[55vw] max-[420px]:h-[35vh] brighness-70 rounded-lg border border-opacity-60 border-cyan-700 " src={Img_05} alt="" />
               </div>
-              <div className="w-full lg:pt-4 h-full max-[420px]:h-full flex justify-center lg:border-2 border-opacity-60 rounded-md border-indigo-500 items-center bg-[]">
-                <p className="flex flex-col h-[70vh] gap-4 justify-center items-center text-left text-black font-sans font-xl antialiased">
+              <div className="pb-3  h-full max-[420px]:h-full flex justify-center lg:border-2 border-opacity-60 border-cyan-700 rounded-md items-center bg-[]">
+                <p className="flex flex-col h-[65vh] max-lg:h-[70vh] gap-4 justify-center items-center text-left text-black font-sans font-xl antialiased">
                   <span className="w-[30vw] max-[420px]:w-full md:w-full sm:w-full bg-white rounded-xl px-5 py-4">
                     We see the church as the body of jesus christ. Ephesians 1:23, Romans 12:5
                   </span>
@@ -149,7 +149,7 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="w-full h-full pt-2 lg:pt-6">
+          <div className="w-full h-full pt-2">
             <Cont />
           </div>
         </div>
