@@ -111,7 +111,7 @@ function About() {
                 </div>
               </div>
             </div>
-            <div className="md:w-1/2 h-fit flex flex-col gap-2">
+            <div className="pt-2 md:w-1/2 h-fit flex flex-col gap-2">
               <div className="w-full h-68 bg-gradient-to-r rounded-lg from-[#005158] to-[#00101b]">
                 <div className="w-full h-full rounded-lg ">
                   <div className="p-6">
@@ -139,7 +139,7 @@ function About() {
           </div>
           <div className="w-full h-fit flex justify-center items-center pb-4">
             <img
-              className="w-[90vw] max-sm:h-[30vh] max-lg:h-[90vh] rounded-2xl blur-[2px] bg-center bg-contain bg-no-repeat"
+              className="w-[90vw] max-sm:h-[30vh] rounded-2xl blur-[2px] bg-center bg-contain bg-no-repeat"
               src={ChoirPic}
               alt=""
             />
