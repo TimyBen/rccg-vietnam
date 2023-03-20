@@ -108,7 +108,7 @@ function Home() {
           <div className="w-full flex justify-between items-center pb-2 border border-cyan-500">
             <div className="bg-[#0a353c1a] w-full h-[42vh] max-[420px]:h-[70vh] max-[420px]:px-4 md:px-5 lg:px-7">
               <h1 className="description drop-shadow-2xl uppercase leading-loose tracking-widest text-white text-[3rem] font-serif text-center max-[420px]:text-xl font-semibold pb-2 pt-4">Nice to Meet You.</h1>
-              <p className="description text-white text-[1.5rem] font-serif max-[420px]:text-lg px-2 text-left font- indent-7">
+              <p className="description text-white text-3xl font-serif max-[420px]:text-lg px-2 text-left font- indent-7">
                 We are committed to teaching the uncompromising word of God, serving all nations and generations.
                 Harvest Center Parish, a parish of the Redeemed Christian Church of God (RCCG), is a dynamic church where praise is enthusiastic, prayer is steadfast, and the preaching is impactful.
                 Harvest Center Parish is a love-filled environment, a place where people can come in and feel welcomed, loved and respected. A center of transformation where people are
