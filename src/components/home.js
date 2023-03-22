@@ -117,12 +117,12 @@ function Home() {
               </p>
             </div>
           </div>
-          <div className="bg-[#0a353c1a] max-[420px]:h-[120vh] max-[420px]:px-4 md:px-10 lg:px-16 ">
-            <div className="pt-4 px-2 flex max-[420px]:flex-col max-[420px]:h-full sm:flex-col md:flex-col lg:flex-row lg:gap-10  w-full justify-between items-center">
+          <div className="bg-[#0a353c1a] max-[420px]:h-[125vh] max-[420px]:px-4 md:px-10 lg:px-16 ">
+            <div className="pt-4 px-2 flex max-[420px]:flex-col max-[420px]:h-full sm:flex-col md:flex-col lg:flex-row lg:gap-16  w-full justify-between items-center">
               <div className="w-fit h-fit flex justify-center items-center pb-3">
                 <img className="w-[35vw] md:w-[35vw] max-lg:h-[35vh] bg-cover max-[420px]:w-[55vw] max-[420px]:h-[35vh] brighness-70" src={Img_05} alt="" />
               </div>
-              <div className="pb-3  h-full max-[420px]:h-full flex justify-center lg:border-2 border-opacity-60 border-cyan-700 rounded-md items-center bg-[]">
+              <div className=" max-[420px]:h-full flex justify-center lg:border-2 border-opacity-60 border-cyan-700 rounded-md items-center bg-[]">
                 <p className="flex flex-col h-[65vh] max-lg:h-[70vh] gap-4 justify-center items-center text-left text-black font-sans font-xl antialiased">
                   <span className="w-[30vw] max-[420px]:w-full md:w-full sm:w-full bg-white rounded-xl px-5 py-4">
                     We see the church as the body of jesus christ. Ephesians 1:23, Romans 12:5

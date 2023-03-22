@@ -20,7 +20,7 @@ function LifeSkill() {
                 <h1 className="text-2xl tracking-wider font-serif font-Bold max-[420px]:text-lg">Vietnam</h1>
               </div>
             </Link>
-            <nav className="lg:px-32 h-fit max-[420px]:w-full navbar navbar-expand-lg navbar-light">
+            <nav className="lg:px-16 h-fit max-[420px]:w-full navbar navbar-expand-lg navbar-light">
               <ul className="max-[420px]:text-base w-full text-white justify-between content-center leading-normal font-serif font-medium text-xl lg:pr-4  lg:py-12 max-[420px]:p-2 flex navbar-nav mr-auto">
                 <li className="p-3">
                   <button className="ease-linear transform hover:scale-125 transition duration-300">
@@ -43,6 +43,13 @@ function LifeSkill() {
                     </Link>
                   </button>
                 </li>
+                {/* <li className="p-3">
+                  <button className="ease-linear transform hover:scale-125 transition duration-300">
+                    <Link to={"/gallery"} className="nav-link">
+                      Gallery
+                    </Link>
+                  </button>
+                </li> */}
                 <li className="p-3">
                   <button className="ease-linear transform hover:scale-125 transition duration-300">
                     <Link to={"/lifeskill"} className="nav-link">
@@ -54,6 +61,7 @@ function LifeSkill() {
             </nav>
           </header>
         </div>
+
         <div className="sm:h-full w-full">
           <div className="w-full lg:h-[30rem] h-[25vh] max-[420px]:h-[25vh] absolute z-10 ">
             <div className="w-full flex sm:h-[25vh]  justify-center items-center">
